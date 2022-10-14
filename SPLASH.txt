@@ -1,0 +1,4 @@
+gfx.files version 0.1, Copyright (C) 2022 Mark Gullings
+gfx.files comes with ABSOLUTELY NO WARRANTY!
+This is free software licensed under the GNU GPL v2,
+and you are welcome to redistribute it
