@@ -92,3 +92,6 @@ arrow='❱'
     - expand list of predefined distro list
 - Git Detection
     - show state of working directory and/or commits
+- Splash
+    - configurable system info display
+

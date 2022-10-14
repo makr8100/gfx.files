@@ -16,7 +16,7 @@ test -s ~/.alias && . ~/.alias || true
 source "${src_dir}/alias.sh"
 
 # load user scripts
-if [ -d $userDir ]; then
+if [ -d $usr_dir ]; then
     usr_scripts="${usr_dir}/*.sh"
     for f in $usr_scripts
     do
