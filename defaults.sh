@@ -19,7 +19,7 @@ bracket_color=$WHT
 bracket_l="["
 bracket_r="]"
 
-arrow_color=$bracket_color
+arrow_color=$user_color
 arrow=">"
 
 splash_color=$MAG

@@ -90,8 +90,11 @@ arrow='❱'
 # Planned Features
 - OS Detection
     - expand list of predefined distro list
+    - testing needed for many distros
 - Git Detection
     - show state of working directory and/or commits
 - Splash
     - configurable system info display
 
+# Bugs
+- Colorized output adds char width to PS1, throws off wrap for long commands
