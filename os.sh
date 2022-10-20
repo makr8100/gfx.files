@@ -102,3 +102,7 @@ case $(get_distro) in
         host_color=$CYN
         ;;
 esac
+
+if [ $(whoami) = 'root' ]; then
+    user_color=$RED
+fi
