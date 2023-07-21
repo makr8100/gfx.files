@@ -34,10 +34,10 @@ GIT_PS1_SHOWUPSTREAM='auto'
 
 git_block='$(__git_ps1 \ ${git_color}${git_icon}) $(git_branch)$(__git_ps1 "${git_dir_separator}${NORMAL}")'
 dir_block="${bracket_color}${bracket_l}${git_block}${dir_color}\W${bracket_color} ${bracket_r}${NORMAL}"
-arrow_block="${arrow_color}${arrow}${NORMAL}"
+arrow_block=" ${arrow_color}${arrow}${NORMAL}"
 
 # PS1 format
-export PS1="${user_block}${host_block}${dir_block} ${arrow_block} "
+export PS1="${user_block}${host_block}${dir_block}${arrow_block} "
 
 if [ $show_splash -gt 0 ]; then
     splash=$(cat ${src_dir}/SPLASH.txt 2> /dev/null)
