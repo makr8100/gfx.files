@@ -66,7 +66,7 @@ case $(get_distro) in
         user_color=$WHT
         host_color=$GRN
         ;;
-    opensuse-tumbleweed|opensuse-leap|opensuse)
+    opensuse-tumbleweed|opensuse-leap|opensuse|sles)
         distro_icon=🦎
         user_color=$YLW
         host_color=$GRN

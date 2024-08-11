@@ -23,7 +23,7 @@ arrow_color=$user_color
 arrow=">"
 
 splash_color=$MAG
-show_splash=1
+show_splash=0
 
 fortune_color=$BLU
 show_fortune=0
